@@ -1,4 +1,4 @@
-bet#!/bin/sh
+DTI_Computation#!/bin/sh
 
 #  DTI_Computation.sh
 #  
