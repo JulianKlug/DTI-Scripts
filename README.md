@@ -2,13 +2,16 @@
 A selection of scripts to guide and automate DTI analysis with FSL
 
 ## Tools:
-•	Osirix – organize data
-•	Dcm2niix – convert dicom to nifti
-    from: https://github.com/rordenlab/dcm2niix
-    needs to be installed and added to path
-•	FSL – analyze data
+- Osirix – organize data
+- Dcm2niix – convert dicom to nifti
+    - from: https://github.com/rordenlab/dcm2niix
+    - needs to be installed and added to path
+- FSL – analyze data
 
 ## Steps
+
+0. Clone this repository into your workinng directory
+    - type `git clone https://github.com/MonsieurWave/DTI-Scripts` into your terminal
 
 1. Extract nifti, bvals and bvecs from dicoms: 
     - Use the dcm2niix command line tool on dicom folder
